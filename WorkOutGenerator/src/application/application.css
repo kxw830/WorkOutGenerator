@@ -1,1 +1,38 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#main_view {
+	-fx-background-color: rgba(149, 49, 49, 1);
+}
+
+.input-field {
+	-fx-background-color: rgba(237, 145, 145, .7);
+	-fx-cursor: hand;
+}
+
+.input-field:hover {
+	-fx-background-color: rgba(237, 145, 145, 1);
+	-fx-cursor: hand;
+}
+
+.input-field-select {
+	-fx-background-color: rgba(82, 106, 223, .7);
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+.input-field-select:hover {
+	-fx-background-color: rgba(82, 106, 223, 1);
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+}
+
+.button-next {
+	-fx-background-color: rgba(220, 168, 54, 1);
+	-fx-cursor: hand;
+}
+
+.button-next:hover {
+	-fx-background-color: rgba(220, 168, 54, .7);
+	-fx-cursor: hand;
+}
+
+
