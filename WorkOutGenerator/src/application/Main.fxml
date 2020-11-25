@@ -21,16 +21,16 @@
          <font>
             <Font size="24.0" />
          </font></Button>
-      <ToggleButton fx:id="male_button" layoutX="319.0" layoutY="372.0" mnemonicParsing="false" onAction="#toggle_gender_buttons" prefHeight="48.0" prefWidth="69.0" styleClass="input-field-select" text="M">
+      <ToggleButton fx:id="male_button" layoutX="319.0" layoutY="372.0" mnemonicParsing="false" onAction="#toggle_male_button" prefHeight="48.0" prefWidth="69.0" styleClass="input-field-select" text="M">
          <font>
             <Font size="29.0" />
          </font></ToggleButton>
-      <ToggleButton fx:id="female_button" layoutX="403.0" layoutY="372.0" mnemonicParsing="false" onAction="#toggle_gender_buttons" prefHeight="48.0" prefWidth="69.0" styleClass="input-field" text="F">
+      <ToggleButton fx:id="female_button" layoutX="403.0" layoutY="372.0" mnemonicParsing="false" onAction="#toggle_female_button" prefHeight="48.0" prefWidth="69.0" styleClass="input-field" text="F">
          <font>
             <Font size="29.0" />
          </font>
       </ToggleButton>
-      <ToggleButton fx:id="other_button" layoutX="493.0" layoutY="372.0" mnemonicParsing="false" onAction="#toggle_gender_buttons" prefHeight="48.0" prefWidth="69.0" styleClass="input-field" text="O">
+      <ToggleButton fx:id="other_button" layoutX="493.0" layoutY="372.0" mnemonicParsing="false" onAction="#toggle_other_button" prefHeight="48.0" prefWidth="69.0" styleClass="input-field" text="O">
          <font>
             <Font size="29.0" />
          </font>

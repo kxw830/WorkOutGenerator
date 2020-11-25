@@ -8,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.AnchorPane;
+import Model.MainModel;
 
 public class MainController {
 
@@ -38,12 +39,18 @@ public class MainController {
     }
     
     @FXML
-    void toggle_gender_buttons() {
-    	System.out.println("It got here");
-    	
-    	
-    	
-       	System.out.println("Hey!!!!!!!!!!");
+    void toggle_male_button() {
+    	MainModel.toggle_gender_buttons(male_button, female_button, other_button, "male");
+    }
+
+    @FXML
+    void toggle_female_button() {
+    	MainModel.toggle_gender_buttons(male_button, female_button, other_button, "female");
+    }
+
+    @FXML
+    void toggle_other_button() {
+    	MainModel.toggle_gender_buttons(male_button, female_button, other_button, "other");
     }
 
 }
