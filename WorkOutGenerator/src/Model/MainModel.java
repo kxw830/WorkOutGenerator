@@ -46,9 +46,14 @@ public class MainModel {
 		  return str.matches("-?\\d+(\\.\\d+)?");  //match a number with optional '-' and decimal.
 	}
 	
+	private static boolean vald_height(String str) {
+		  return str.matches("^\\d\\'\\d");  //match a number with optional '-' and decimal.
+	}
+	
 	
 	public static void validate_weight_height(String weight, String height) {
 		boolean checkWeight = is_numeric(weight);
+		boolean validHeight = vald_height(height);
 		
 		if (checkWeight == false) {
 			Alert a = new Alert(AlertType.NONE);
@@ -57,13 +62,11 @@ public class MainModel {
 			a.show();
 			return;
 		}
-		
-		System.out.println("It" + height);
-		
-		if (height == "") {
+
+		if (validHeight == false) {
 			Alert a = new Alert(AlertType.NONE);
 			a.setAlertType(AlertType.ERROR);
-			a.setContentText("Height Field is not a number. ");
+			a.setContentText("Height Field is not valid. ");
 			a.show();
 			return;
 		}
