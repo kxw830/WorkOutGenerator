@@ -16,25 +16,19 @@
                   <Font size="48.0" />
                </font>
             </Label>
-            <Button layoutX="64.0" layoutY="680.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="211.0" text="Back" />
-            <Button layoutX="725.0" layoutY="680.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="211.0" text="Next" />
-            <MenuButton layoutX="369.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="263.0" text="Lean or Buff?">
+            <Button layoutX="64.0" layoutY="680.0" mnemonicParsing="false" onAction="#BackBtn" prefHeight="51.0" prefWidth="211.0" text="Back" />
+            <Button layoutX="725.0" layoutY="680.0" mnemonicParsing="false" onAction="#NextBtn" prefHeight="51.0" prefWidth="211.0" text="Next" />
+            <MenuButton fx:id="LeanOrBuff" layoutX="132.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="287.0" text="What part of body?">
                <items>
                   <MenuItem mnemonicParsing="false" text="Action 2" />
                   <MenuItem mnemonicParsing="false" text="Action 3" />
                </items>
             </MenuButton>
-            <MenuButton layoutX="673.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="263.0" text="Nutritions">
+            <MenuButton fx:id="Nutritions" layoutX="582.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="287.0" text="AVG  calories per day">
                <items>
                   <MenuItem mnemonicParsing="false" text="Action 2" />
                   <MenuItem mnemonicParsing="false" text="Action 3" />
                </items>
-            </MenuButton>
-            <MenuButton layoutX="64.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="263.0" text="Weight">
-              <items>
-                <MenuItem mnemonicParsing="false" text="Action 2" />
-                  <MenuItem mnemonicParsing="false" text="Action 3" />
-              </items>
             </MenuButton>
          </children>
       </Pane>
