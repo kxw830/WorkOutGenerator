@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane prefHeight="800.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="275.0" layoutY="83.0" prefHeight="117.0" prefWidth="450.0" text="What are your goals?">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Button layoutX="64.0" layoutY="680.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="211.0" text="Back" />
+            <Button layoutX="725.0" layoutY="680.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="211.0" text="Next" />
+            <MenuButton layoutX="369.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="263.0" text="Lean or Buff?">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+                  <MenuItem mnemonicParsing="false" text="Action 3" />
+               </items>
+            </MenuButton>
+            <MenuButton layoutX="673.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="263.0" text="Nutritions">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+                  <MenuItem mnemonicParsing="false" text="Action 3" />
+               </items>
+            </MenuButton>
+            <MenuButton layoutX="64.0" layoutY="340.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="263.0" text="Weight">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+                  <MenuItem mnemonicParsing="false" text="Action 3" />
+              </items>
+            </MenuButton>
+         </children>
+      </Pane>
+   </children>
+</StackPane>
