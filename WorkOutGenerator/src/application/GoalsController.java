@@ -22,6 +22,8 @@ public class GoalsController {
 	@FXML
 	private MenuButton Nutritions;
 	
+	
+	
 	@FXML
 	public void NextBtn(ActionEvent event) throws IOException {
 		mainPane = FXMLLoader.load(getClass().getResource("Days.fxml"));
