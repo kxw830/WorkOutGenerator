@@ -9,6 +9,7 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 
 public class List {
+	Andrew
 	//creating the arraylists
 	public static ArrayList<String> names = new ArrayList<String>(); //names of items
     public static ArrayList<String> qty = new ArrayList<String>(); //quantity of the items
