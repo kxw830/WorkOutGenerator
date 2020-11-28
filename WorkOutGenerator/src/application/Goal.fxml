@@ -17,7 +17,7 @@
             </Label>
             <Button layoutX="64.0" layoutY="487.0" mnemonicParsing="false" onAction="#BackBtn" prefHeight="51.0" prefWidth="211.0" text="Back" />
             <Button layoutX="620.0" layoutY="487.0" mnemonicParsing="false" onAction="#NextBtn" prefHeight="51.0" prefWidth="211.0" text="Next" />
-            <MenuButton fx:id="LeanOrBuff" layoutX="64.0" layoutY="265.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="287.0" text="What part of body?">
+            <MenuButton fx:id="LeanOrBuff" layoutX="64.0" layoutY="265.0" mnemonicParsing="false" onAction="#chooseTheType" prefHeight="71.0" prefWidth="287.0" text="What part of body?">
                <items>
                   <MenuItem mnemonicParsing="false" text="Action 2" />
                   <MenuItem mnemonicParsing="false" text="Action 3" />
