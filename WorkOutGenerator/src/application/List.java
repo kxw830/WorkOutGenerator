@@ -26,6 +26,7 @@ public class List {
             line = buffered.readLine();
         }
         buffered.close();
+        
 	}
 	
 	//this function saves to the list
